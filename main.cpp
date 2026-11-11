@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
@@ -26,6 +25,6 @@ int main() {
     } while (pilihan == "y" || pilihan == "Y");
 
     cout << "\nProgram selesai. Terima kasih!" << endl;
-
+    system("pause");
     return 0;
 }
