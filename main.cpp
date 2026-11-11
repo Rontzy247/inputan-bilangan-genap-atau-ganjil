@@ -19,7 +19,7 @@ int main() {
         }
 
         // Konfirmasi perulangan
-        cout << "Apakah ingin memeriksa angka lain? (y/n): ";
+        cout << "Apakah ingin memeriksa angka lain? (y/Y): ";
         cin >> pilihan;
 
     } while (pilihan == "y" || pilihan == "Y");
