@@ -15,6 +15,6 @@ int main() {
     } else {
         cout << bilangan << " adalah bilangan GANJIL." << endl;
     }
-
+        system("pause");
     return 0;
 }
