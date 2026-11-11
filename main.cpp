@@ -4,17 +4,27 @@ using namespace std;
 
 int main() {
     long long bilangan;
+    char pilihan;
 
-    cout << "=== Program Cek Bilangan Genap / Ganjil ===" << endl;
-    cout << "Masukkan sebuah bilangan bulat: ";
-    cin >> bilangan;
+    do {
+        cout << "\n=== Program Cek Bilangan Genap / Ganjil ===" << endl;
+        cout << "Masukkan sebuah bilangan bulat: ";
+        cin >> bilangan;
 
-    // Menentukan genap atau ganjil menggunakan operator modulo (%)
-    if (bilangan % 2 == 0) {
-        cout << bilangan << " adalah bilangan GENAP." << endl;
-    } else {
-        cout << bilangan << " adalah bilangan GANJIL." << endl;
-    }
-        system("pause");
+        // Pengecekan modulo
+        if (bilangan % 2 == 0) {
+            cout << "Hasil: " << bilangan << " adalah bilangan GENAP." << endl;
+        } else {
+            cout << "Hasil: " << bilangan << " adalah bilangan GANJIL." << endl;
+        }
+
+        // Konfirmasi perulangan
+        cout << "Apakah ingin memeriksa angka lain? (y/n): ";
+        cin >> pilihan;
+
+    } while (pilihan == 'y' || pilihan == 'Y');
+
+    cout << "\nProgram selesai. Terima kasih!" << endl;
+
     return 0;
 }
