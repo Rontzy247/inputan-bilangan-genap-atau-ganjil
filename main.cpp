@@ -24,7 +24,7 @@ int main() {
 
     } while (pilihan == "y" || pilihan == "Y");
 
-    cout << "\nProgram selesai. Terima kasih!" << endl;
     system("pause");
+     cout << "\nProgram selesai. Terima kasih!" << endl;
     return 0;
 }
