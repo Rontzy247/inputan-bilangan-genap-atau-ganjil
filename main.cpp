@@ -1,10 +1,11 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main() {
-    long long bilangan;
-    char pilihan;
+    int bilangan;
+    string pilihan;
 
     do {
         cout << "\n=== Program Cek Bilangan Genap / Ganjil ===" << endl;
@@ -19,10 +20,10 @@ int main() {
         }
 
         // Konfirmasi perulangan
-        cout << "Apakah ingin memeriksa angka lain? (y/Y): ";
+        cout << "Apakah ingin memeriksa angka lain? (y/n): ";
         cin >> pilihan;
 
-    } while (pilihan == 'y' || pilihan == 'Y');
+    } while (pilihan == "y" || pilihan == "Y");
 
     cout << "\nProgram selesai. Terima kasih!" << endl;
 
