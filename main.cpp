@@ -19,12 +19,12 @@ int main() {
         }
 
         // Konfirmasi perulangan
-        cout << "Apakah ingin memeriksa angka lain? (y/Y): ";
+        cout << "Apakah ingin memeriksa angka lain? (y/Y) jika ingin mengakhiri ketik (end)/ huruf selain (y/Y): ";
         cin >> pilihan;
 
     } while (pilihan == "y" || pilihan == "Y");
-
+    cout << "\nProgram selesai. Terima kasih!" << endl;
+    
     system("pause");
-     cout << "\nProgram selesai. Terima kasih!" << endl;
     return 0;
 }
